@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MY INDIA</title>
+   <meta charset="utf-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto:wght@100&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+     <style>
+
+      *{
+        margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+      }
+    /* Make the image fully responsive 
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    */
+  </style>
+   
+</head>
+<body>
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">MY INDIA</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="About.html">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallary.html">Galary</a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" href="signup.html">Contact</a>
+      </li>
+  </div>
+</nav>
+
+<!-- booking part -->
+
+<section>
+<div class="container">
+  <h1 class="text_effects text-center text-capitalize pt-5"> Book Your Destination </h1>
+  <hr class="w-25 mx-auto pt-5">
+
+
+
+<div class="row text-center mb-5">
+  <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/kolkata.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">KOLKATA</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">999/-</h6>
+        <p class="card-text">The City Of Joy</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/delhi.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">DELHI</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">1199/-</h6>
+        <p class="card-text">A Place That Everyone Calls Home</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/goa.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">GOA</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">1499/-</h6>
+        <p class="card-text">The Official Party Hub</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+  </div>
+<br>
+<br>
+<div class="row text-center mb-5">
+   <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/darjeeling.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">DARJEELING</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">1199/-</h6>
+        <p class="card-text">Home Of The Thrilling Himalayan Railway</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/ke.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">KERALA</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">1199/-</h6>
+        <p class="card-text">The God’s Own Country</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-lg-4 col-md-4 col-12"> 
+    <div class="card" >
+      <img class="card-img-top" src="images/taj.jpg" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title">AGRA</h4>
+        <h6 class="priceTag ext_effects text-capitalize pt-1 ">999/-</h6>
+        <p class="card-text">The Land Of Taj</p>
+        <a href="#" class="btn btn-primary"  data-toggle="modal" data-target="#myModal">Book Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+     <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Singup</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+    <form>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email" autocomplete="off">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Confirm Password:</label>
+          <input type="password" class="form-control" id="confirm_pwd">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!--********************footer part***********************-->
+<section>
+  <div class="flex_css my-5">
+    <div> <a class="btn btn-success p-3" href ="https://www.facebook.com/profile.php?id=100010862102934"> FaceBook </a></div>
+    <div> <a class="btn btn-success p-3" href = "https://www.instagram.com/rajib_prasad7/"> Instagram </a></div>
+    <div> <button class="btn btn-success p-3" href = "#">Twitter </button></div>
+    <div> <a class="btn btn-success p-3" href = "https://api.whatsapp.com/send/?phone=9330465331&text&app_absent=0"> Whats App Us </a></div>
+  </div>
+</section>
+
+
+<footer>
+  
+  <p class="text-center bg-dark text-white"> @copyright Rajib & Shamaita  </p>
+
+</footer>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+  
+
+</body>
+</html>
